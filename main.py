@@ -1,6 +1,5 @@
 import discord 
 import time 
-import asyncpg
 import discord
 import os
 import requests
