@@ -8,8 +8,8 @@ import json
 from discord.ext import commands, tasks
 from itertools import cycle
 
-# with open ("data.json", "r") as f:
-#     token = data["token"]
+#  with open ("data.json", "r") as f:
+#      token = data["token"]
 
 intents = discord.Intents().all()
 client = commands.Bot(command_prefix="?", intents=intents, help_command=None, case_insensitive=True)
@@ -168,4 +168,4 @@ async def createmuted(ctx):
 
 
 
-client.run("ODU5ODYzMjY3ODM2NDI4Mjg4.YNy4Eg.8G0koK_T8ejQEaVXM38hB2m0OnI")
+client.run(token)
